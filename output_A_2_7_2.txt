@@ -1,0 +1,4 @@
+test_A_2_7_2_violation.cpp:1:15: warning: Pointer/reference parameter 'p' is not modified; consider making it 'const' [GJB8114.A_2_7_2]
+    1 | void foo(int* p) {   // p 未被修改，但未加 const，违规
+      |          ~~~~~^
+1 warning generated.

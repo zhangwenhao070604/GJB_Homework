@@ -17,7 +17,7 @@ public:
 
     clang::ento::ExplodedNode *N = C.generateErrorNode();
     auto R = std::make_unique<clang::ento::PathSensitiveBugReport>(
-        *BT, "Function call detected (示例检测)", N);
+        *BT, "Function call detected ", N);
     C.emitReport(std::move(R));
   }
 };

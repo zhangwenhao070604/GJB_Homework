@@ -1,4 +1,4 @@
 int main() {
-    int x = 10;  // ÒÑ³õÊ¼»¯
+    int x = 10;  // å·²åˆå§‹åŒ–
     return x;
 }

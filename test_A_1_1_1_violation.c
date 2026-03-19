@@ -1,4 +1,7 @@
+void foo() {}
+
 int main() {
-    unsigned int x = 10;  // Ó¦Ê¹ÓÃ typedef ÖØĞÂ¶¨ÒåµÄÀàĞÍ£¬Èç UINT_32
+    unsigned int x = 10;
+    foo();  // è§¦å‘æ£€æµ‹
     return 0;
 }

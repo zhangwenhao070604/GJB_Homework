@@ -2,6 +2,6 @@
 int main() {
     char src[] = "hello";
     char dst[10];
-    strcpy(dst, src);   // Î¥¹æ
+    strcpy(dst, src);  // è¿è§„
     return 0;
 }

@@ -1,5 +1,10 @@
 class Foo {
 public:
-    void func() {}   // 在类内定义，违规
+    void func() {}  // 鍦ㄧ被鍐呭畾涔夛紝杩濊
 };
-int main() { Foo f; f.func(); return 0; }
+
+int main() {
+    Foo f;
+    f.func();
+    return 0;
+}

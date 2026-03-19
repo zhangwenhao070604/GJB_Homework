@@ -1,10 +1,10 @@
-#include "clang/AST/Decl.h"
-#include "clang/AST/Stmt.h"
-#include "clang/Basic/SourceManager.h"
 #include "clang/StaticAnalyzer/Core/BugReporter/BugReporter.h"
 #include "clang/StaticAnalyzer/Core/Checker.h"
 #include "clang/StaticAnalyzer/Core/CheckerManager.h"
 #include "clang/StaticAnalyzer/Core/PathSensitive/AnalysisManager.h"
+#include "clang/AST/Stmt.h"
+#include "clang/AST/Decl.h"
+#include "clang/Basic/SourceManager.h"
 #include <vector>
 
 using namespace clang;
@@ -29,12 +29,11 @@ public:
                 !Mgr.getSourceManager().isInSystemHeader(Loc) &&
                 !Mgr.getSourceManager().isMacroBodyExpansion(Loc) &&
                 !Mgr.getSourceManager().isMacroArgExpansion(Loc)) {
-              // 使用 PathDiagnosticLocation 的构造函数
               PathDiagnosticLocation DiagLoc(Loc, BR.getSourceManager());
               BR.EmitBasicReport(
                   D, this, "Empty statement", "GJB8114 Rule A-1-8-1",
-                  "Avoid empty statements (standalone semicolon).", DiagLoc,
-                  S->getSourceRange());
+                  "Avoid empty statements (standalone semicolon).",
+                  DiagLoc, S->getSourceRange());
             }
           }
 

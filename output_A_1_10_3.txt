@@ -1,0 +1,4 @@
+test_A_1_10_3_violation.c:3:12: warning: Conversion from 'long' (64 bits) to 'short' (16 bits) may lose information [GJB8114.A_1_10_3]
+    short s = (short)l;
+           ^
+1 warning generated.

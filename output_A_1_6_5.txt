@@ -1,0 +1,4 @@
+test_A_1_6_5_violation.c:4:5: warning: Avoid using strcat(), prefer strncat() [GJB8114.A_1_6_5]
+    strcat(dst, src);
+    ^
+1 warning generated.

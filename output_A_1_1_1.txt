@@ -1,0 +1,4 @@
+test_A_1_1_1_violation.c:5:5: warning: Function call detected [GJB8114.A_1_1_1]
+    5 |     foo();  // 触发检测
+      |     ^~~~~
+1 warning generated.

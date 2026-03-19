@@ -1,0 +1,4 @@
+test_A_1_12_1_violation.c:3:9: warning: Place constant on the left side of equality comparison to avoid accidental assignment [GJB8114.A_1_12_1]
+    if (x == 5) {
+        ^
+1 warning generated.

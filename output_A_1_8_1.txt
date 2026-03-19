@@ -1,12 +1,4 @@
-clang : test_A_1_8_1_violation.c:2:5: warning: Avoid empty statements (standalone sem
-icolon) [GJB8114.A_1_8_1]
-所在位置 行:1 字符: 11
-+ $output = clang --analyze -Xanalyzer "-analyzer-checker=GJB8114.A_1_8 ...
-+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (test_A_1_8_1_vi...JB8114.A_1_8_1]:Strin 
-   g) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
-    2 |     ;  // <BF><D5><D3><EF><BE>洌?B9><E6>
+test_A_1_8_1_violation.c:2:5: warning: Avoid empty statements (standalone semicolon) [GJB8114.A_1_8_1]
+    2 |     ;  // 空语句，违规
       |     ^
 1 warning generated.

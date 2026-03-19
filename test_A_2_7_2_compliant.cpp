@@ -1,5 +1,10 @@
-void foo(const int* p) {  // º”¡À const
+void foo(const int* p) {  // Âä†‰∫Ü const
     int x = *p;
     (void)x;
 }
-int main() { int a = 5; foo(&a); return 0; }
+int main() 
+{
+     int a = 5; 
+     foo(&a); 
+     return 0;
+ }

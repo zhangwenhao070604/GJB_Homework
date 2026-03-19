@@ -2,6 +2,6 @@
 int main() {
     char dst[20] = "Hello, ";
     char src[] = "world";
-    strcat(dst, src);   // Î¥¹æ
+    strcat(dst, src);  // è¿è§„
     return 0;
 }
