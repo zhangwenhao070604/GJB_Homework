@@ -1,4 +1,0 @@
-test_A_1_1_1_violation.c:5:5: warning: Function call detected (示例检<E6><B5>? [GJB8114.A_1_1_1]
-    5 |     foo();  // <CC><ED><BC><D3><D5><E2><D0><D0>
-      |     ^~~~~
-1 warning generated.

@@ -1,4 +1,0 @@
-test_A_1_11_1_violation.c:2:5: warning: Variable 'x' should be initialized at declaration [GJB8114.A_1_11_1]
-    2 |     int x;   // δ<B3><F5>ʼ<BB><AF><A3><AC>Υ<B9><E6>
-      |     ^
-1 warning generated.
