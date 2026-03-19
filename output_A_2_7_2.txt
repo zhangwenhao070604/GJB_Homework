@@ -1,0 +1,4 @@
+test_A_2_7_2_violation.cpp:1:15: warning: Pointer/reference parameter 'p' is not modified; consider making it 'const' [GJB8114.A_2_7_2]
+    1 | void foo(int* p) {   // p δ<B1><BB><D0><U+07B8>ģ<AC><B5><AB>δ<BC><D3> const<A3><AC>Υ<B9><E6>
+      |          ~~~~~^
+1 warning generated.

@@ -1,0 +1,4 @@
+test_A_1_8_1_violation.c:2:5: warning: Avoid empty statements (standalone semicolon) [GJB8114.A_1_8_1]
+    2 |     ;  // <BF><D5><D3><EF><BE>䣬Υ<B9><E6>
+      |     ^
+1 warning generated.

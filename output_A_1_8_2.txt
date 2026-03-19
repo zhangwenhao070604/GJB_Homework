@@ -1,0 +1,4 @@
+test_A_1_8_2_violation.c:2:9: warning: Variable 'x' is never used [GJB8114.A_1_8_2]
+    2 |     int x = 10;  // <B6><A8><D2>嵫<B4><D3>δʹ<D3>ã<AC>Υ<B9><E6>
+      |     ~~~~^~~~~~
+1 warning generated.

@@ -1,0 +1,4 @@
+test_A_1_6_4_violation.c:1:10: fatal error: 'string.h' file not found
+    1 | #include <string.h>
+      |          ^~~~~~~~~~
+1 error generated.
